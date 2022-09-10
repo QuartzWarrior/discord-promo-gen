@@ -1,0 +1,12 @@
+requests
+asyncio
+datetime
+urllib3
+discord
+httpx
+captchatools
+gratient
+psutil
+termcolor
+requests_futures
+colorama
